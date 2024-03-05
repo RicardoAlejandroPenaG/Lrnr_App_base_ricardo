@@ -41,7 +41,7 @@ import ClipLoader from "react-spinners/ClipLoader";
     e.preventDefault();
     console.log("User Answers:", userAnswers);
     try {
-      const response = await axios.post('http://localhost:5000/gradeAnswers', {
+      const response = await axios.post('https://back-end-server.glitch.me/gradeAnswers/', {
         answers: userAnswers,
         questions: questions[currentQuestionIndex]
       });

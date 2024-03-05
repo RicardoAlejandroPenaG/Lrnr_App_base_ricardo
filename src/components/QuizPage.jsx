@@ -24,7 +24,7 @@ const QuizPage = () => {
 
     try {
         
-      const response = await fetch('http://localhost:5000/QuizPage', {
+      const response = await fetch('https://back-end-server.glitch.me/QuizPage/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
