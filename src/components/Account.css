@@ -5,34 +5,50 @@
     justify-content: center;
     margin: 30px;
 }
-
+/* 
 .account-page h1 {
     font-size: 3rem;
     font-weight: 800;
-    color: #063661;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    color: #028f62;
     margin: 0;
     text-align: center;
+} */
+
+.Account1{
+  font-size: 3rem;
+  color: #028f62;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  text-align: left;
+
 }
 
-.account-title {
+.stacked-account-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+/* .account-title {
     font-size: 1.8rem;
     font-weight: 600;
-    color: #fff;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     margin-bottom: 10px;
     text-align: center;
-}
+} */
 
 .account-container {
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-evenly;
     width: 90%;
 }
 
 .account-container i {
-    color: #ffd43b;
+    color: hsl(170, 87%, 44%);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -43,11 +59,8 @@
     justify-content: center;
     margin: 20px;
     border-radius: 20px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.09);
     text-align: center;
-    color: #1A0315;
-    font-weight: 700;
-    font-size: 1.5rem;
+ 
     padding: 10px;
 }
 
@@ -57,36 +70,27 @@
     font-weight: 600;
 }
 
-.level-box span, .streak-box span {
-    font-size: 1.5rem;
-    font-weight: 900;
-    color: #ffd43b;
-    text-shadow: 1px 1px 1px #000;
-}
 
-.stacked-account-container {
+/* .stacked-account-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
     width: 50%;
-}
+} */
 
 .level-box {
-    width: 40%;
-    height: 700px;
-    background: #00CECB;
+    width: 100%;
+    /* height: 700px; */
 }
 
 .streak-box {
     width: 100%;
-    background: #DEC0F1;
 }
 
 .platinum-box {
     width: 100%;
-    background: #04E762;
 }
 
 .platinum-box li {
@@ -94,8 +98,6 @@
 }
 
 .level-box h2, .platinum-box h2, .streak-box h2 {
-    color: #fff;
-    text-shadow: 2px 2px 2px #063661;
     font-weight: 700;
     font-size: 1.8rem;
 }
@@ -114,6 +116,8 @@
     .stacked-account-container {
       width: 100%;
       margin-top: 20px;
+      display: flex;
+      flex-direction: column;
     }
   
     .level-box,
@@ -142,6 +146,8 @@
     .stacked-account-container {
       width: 100%;
       margin-top: 20px;
+      display: flex;
+      flex-direction: row;
     }
   
     .level-box,

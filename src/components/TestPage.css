@@ -2,27 +2,48 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f5f5f5;
-  text-align: center;
+  text-align: left;
+  height: 80vh ;
+  /* margin-bottom: 250px; */
 }
 
-.test-page form {
+/* div .test-page form  {
+  position: relative;
+  left: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 70%;
-  margin: 0 auto 40px;
-  background: #f2f2f2;
+  align-items: start;
+  width: 100% !important;
+  margin-top: -30px; */
+  /* margin-left: -300px;
   padding: 20px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.09);
+  border-radius: 20px; */
+/* } */
+#test {
+   position: absolute;
+left: 25px;
+  width: 90% !important;
+  margin-top: -30px;
+  margin-bottom: 100px;
+  /* margin-left: -300px;
+  padding: 20px;
+  border-radius: 20px; */
 }
 
+.Grading{
+  margin-top: 400px;
+
+}
+
+#grad{
+  color: #059576;
+
+}
 .test-page h1 {
   font-size: 3rem;
   font-weight: 600;
   text-align: center;
-  color: #063661;
+  color: #059576;
   margin: 30px;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
@@ -30,48 +51,91 @@
 .question-number {
   font-size: 2rem;
   font-weight: 600;
-  color: #063661;
-  margin: 30px;
+  color: #059576;
+  margin-top: 50px;
+  margin-bottom: 30px;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-.question {
+.question-number2 {
+
   font-size: 2rem;
-  font-weight: 600;
-  color: #063661;
-  margin: 30px;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+  color: #059576;
 }
+/* .question {
+  position: relative;
+  left: 0;
+  font-size: 1rem;
+  margin: 30px;
+  padding-left: -50px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+} */
 
 form input {
-    padding: 10px 20px;
+  background-color: transparent;
+  margin-bottom: 10px;
+  padding-top: 15px;
     font-size: 1rem;
-    width: 50%;
-    border-radius: 5px;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none ;
     cursor: pointer;
     transition: all 0.3s ease;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-    margin: 20px 6px;
 }
+input{
+  margin-top: -10px;
+}
+input:hover {
+border-bottom-color:#059576;
 
+}
 .test-page button {
   padding: 10px 20px;
   font-size: 1.5rem;
   font-weight: 600;
   border: none;
-  border-radius: 5px;
-  background: #063661;
-  color: #fff;
+  background: #059576;
   cursor: pointer;
   transition: all 0.3s ease;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-  margin: 20px 6px;
+  margin: 20px 2px;
 }
 
 .test-page button:hover {
-  background: #063661;
-  opacity: 0.8;
+   opacity: 0.8;
 }
+/* 
+#next{
+  position: relative;
+  left: 0;
+} */
+
+.left-button {
+  position: absolute;
+  left: 28px; /* Adjust this value to move the button horizontally */
+  bottom: 20px; 
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+color: #fff;
+background: #059576;
+cursor: pointer;
+
+transition: all 0.3s ease;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+margin: 0px 2px;
+}
+
+.left-button:hover {
+  background-color: #00b359;
+  opacity: 0.8;
+}  
 
 .test-page h3 {
   font-size: 2rem;
@@ -82,15 +146,15 @@ form input {
 }
 
 .graded-result {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 70%;
-    margin: 0 auto 40px;
-    background: #063661;
-    color: #fff;
-    font-size: 1.3rem;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.09);
+
+    width: 100%;
+    background: transparent;
+    color: #000;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+#graded-result2{
+  width: 40%;
+  margin-left: 50%;
 }

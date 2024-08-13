@@ -1,9 +1,11 @@
 .footer {
+    margin-top: 10px;
     width: 100%;
-    background: #063661;
+    background: #2189e4;
     color: #fff;
     padding: 30px;
-}
+    position: relative;
+    bottom:-380px;}
 
 .footer-section {
     width: 80%;

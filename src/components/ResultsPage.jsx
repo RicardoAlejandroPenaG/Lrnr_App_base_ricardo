@@ -11,12 +11,11 @@ export default function ResultsPage() {
     animate= {{y: "0%", opacity: 1}} 
     transition={{duration: 0.75, ease: "easeOut"}}
     >
-      <h1 className="results-title">Your <span>lrnr</span> Quiz Results!</h1>
+      <h1 className="results-title"><span>lrnr</span></h1>
             <div className="results">
-                <h2>Score: 5/5</h2>
-                <p>Great job! You got all the questions right!</p>
+                <h2>Questions Right: 0111</h2>
                 <Link to="/QuizPage"><button>TRY ANOTHER QUIZ</button></Link>
-                <img src={logo} alt="logo" />
+      
             </div>
     </m.div>
   )
